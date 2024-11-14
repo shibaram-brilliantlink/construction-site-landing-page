@@ -1,0 +1,52 @@
+:root {
+  /* Typo */
+  --font-mulish: "Mulish", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --font-h1: 3.75rem;
+  --font-h2: 2.8125rem;
+  --font-h3: 2.1875rem;
+  --font-h4: 1.5625rem;
+  --font-h5: 1.25rem;
+  --font-lg: 1.125rem;
+  --font-md: 1rem;
+  /* Colors */
+  --color-yellow: #fee869;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #7e7e7e;
+  /* Breakpoints */
+  --breakpoint-xs: 480px; /* mobile */
+  --breakpoint-sm: 768px; /* mobile in landscap */
+  --breakpoint-md: 1024px; /* md screens */
+  --breakpoint-lg: 1200px; /* lg screens */
+  --breakpoint-xl: 1440px; /* xl screens */
+}
+body {
+  font-family: var(--font-inter);
+  font-weight: normal;
+  font-size: var(--font-lg);
+  line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-mulish);
+  font-weight: bold;
+}
+h1 {
+  font-size: var(--font-h1);
+}
+h2 {
+  font-size: var(--font-h2);
+}
+h3 {
+  font-size: var(--font-h3);
+}
+h4 {
+  font-size: var(--font-h4);
+}
+h5 {
+  font-size: var(--font-h5);
+}

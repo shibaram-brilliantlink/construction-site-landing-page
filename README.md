@@ -30,3 +30,9 @@
 - @media (prefers-schema-mode)
 
 ### Reseach completed : 14 Nov 2024, 14:00
+
+- Extract following things from figma first :
+
+  1. images, icons,
+  2. font faimilys, font sizes,
+  3. color-codes.
