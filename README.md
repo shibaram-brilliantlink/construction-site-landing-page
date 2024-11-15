@@ -36,3 +36,5 @@
   1. images, icons,
   2. font faimilys, font sizes,
   3. color-codes.
+
+readme updated by - shibaram.daseng@gmail.com
