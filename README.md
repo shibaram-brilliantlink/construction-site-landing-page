@@ -2,8 +2,8 @@
 
 ## Why you build this Vanilla JS project ? Requirements of the project ?
 
-- Implement Mobile First Approach
-- Consider css Specifcity
+- Implement Mobile First Approach,
+- Implement Component based modular structure,
 - Implement scss techniques,
 - Implement BEM Naming convention for consistency,
 - Implement Dark/light/system theme without any library,
@@ -29,7 +29,7 @@
 - body.classList.toggle("dark-mode"); if want to use class
 - @media (prefers-schema-mode)
 
-### Reseach completed : 14 Nov 2024, 14:00
+### Reseach completed : 14 Nov 2024, 14:00 (Preparation phase)
 
 - Extract following things from figma first :
 
@@ -37,4 +37,14 @@
   2. font faimilys, font sizes,
   3. color-codes.
 
-readme updated by - shibaram.daseng@gmail.com
+##### (Attack phase started ) 15 nov 2024, 10:00
+
+- 1. Attack Navbar ; 10.40 -
+- 2. Atatck Hero-section ;
+
+---
+
+<!-- Learnings -->
+
+- compile time error vs Runtime error ?
+- use css vars. scss vars for static (will not change after compile), While css vars for dynamic (can change at runtime , form js, user etc).

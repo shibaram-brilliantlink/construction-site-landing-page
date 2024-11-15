@@ -21,6 +21,16 @@
   --breakpoint-lg: 1200px; /* lg screens */
   --breakpoint-xl: 1440px; /* xl screens */
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: var(--font-inter);
   font-weight: normal;
@@ -48,5 +58,6 @@ h4 {
   font-size: var(--font-h4);
 }
 h5 {
-  font-size: var(--font-h5);
+  font-size: var(--font-h5); //dfdfd f
 }
+//
