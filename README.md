@@ -48,3 +48,5 @@
 
 - compile time error vs Runtime error ?
 - use css vars. scss vars for static (will not change after compile), While css vars for dynamic (can change at runtime , form js, user etc).
+
+readme updated from home.
