@@ -37,9 +37,9 @@
   2. font faimilys, font sizes,
   3. color-codes.
 
-##### (Attack phase started ) 15 nov 2024, 10:00
+##### (Attack phase started )
 
-- 1. Attack Navbar ; 10.40 -
+- 1. Attack Navbar ;
 - 2. Atatck Hero-section ;
 
 ---

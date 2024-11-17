@@ -1,0 +1,136 @@
+.header {
+  background: var(--color-yellow);
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 30px 22px 0;
+    height: 103px;
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+
+  &__hamburger {
+    display: flex;
+    flex-direction: column;
+    span {
+      display: block;
+      background: var(--color-black);
+      height: 4px;
+      width: 24px;
+      border-radius: 1px;
+    }
+    span:not(:last-child) {
+      margin-bottom: 5px;
+    }
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &__overlay {
+    display: none;
+  }
+  &__letstalk {
+    display: none;
+    @media (min-width: 1024px) {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      max-height: 60px;
+      text-align: center;
+    }
+  }
+
+  &__links {
+    display: none;
+    @media (min-width: 1024px) {
+      display: flex;
+      justify-content: center;
+      width: 60%;
+      gap: 30px;
+    }
+  }
+}
+// header {
+//   nav {
+//     background: var(--color-yellow);
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 22px 30px 22px 0;
+//     height: 103px;
+//   }
+
+//   &__logo {
+//     img {
+//       max-height: 80px;
+//       /* Adjust as needed for logo dimensions */
+//     }
+//   }
+
+//   &__hamburger {
+//     display: flex;
+//     flex-direction: column;
+
+//     span {
+//       display: block;
+//       background: var(--color-black);
+//       height: 4px;
+//       width: 24px;
+//       border-radius: 1px;
+//     }
+
+//     span:not(:last-child) {
+//       margin-bottom: 5px;
+//     }
+
+//     @media (min-width: 768px) {
+//       display: none;
+//     }
+//   }
+
+//   &__links {
+//     display: none;
+
+//     @media (min-width: 768px) {
+//       display: flex;
+//       gap: 20px;
+//       a {
+//         text-decoration: none;
+//         color: var(--color-black);
+//         font-size: 16px;
+//       }
+//     }
+//   }
+
+//   &__overlay {
+//     display: none;
+
+//     li {
+//       list-style: none;
+
+//       a {
+//         text-decoration: none;
+//         color: var(--color-black);
+//         display: block;
+//         padding: 10px 0;
+//       }
+//     }
+//   }
+
+//   &__letstalk {
+//     display: none;
+
+//     @media (min-width: 768px) {
+//       display: inline-block;
+//       background: var(--color-black);
+//       color: var(--color-yellow);
+//       padding: 10px 20px;
+//       border-radius: 5px;
+//       text-decoration: none;
+//     }
+//   }
+// }
